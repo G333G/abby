@@ -4,210 +4,213 @@
 </html>
 
 <head>
-<link rel="shortcut icon" href="favicon.png" type="image/x-icon">
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=0.5">
-   <titulo>Evany Arts</titulo>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5">
+    <titulo>Evany Arts</titulo>
 
-   <style>
-      div {
-         background-image: url("https://th.bing.com/th/id/R.f4445d4c5a5e283bb7101d5b6adf6a87?rik=QuAUgiEaCyfnEw&riu=http%3a%2f%2fwww.latramolla.cat%2fwp-content%2fuploads%2f2015%2f08%2ftel%c3%b3n-de-teatro.jpg&ehk=8JIqKttkttanpyQrrp0zovr1N5SO4IgPDBiJ3VXhCKs%3d&risl=&pid=ImgRaw&r=0");
-         background-repeat: no-repeat;
-         background-attachment: fixed;
-         background-size: 100% 100%;
-         color: white;
-      }
+    <style>
+        div {
+            background-image: url("https://th.bing.com/th/id/R.f4445d4c5a5e283bb7101d5b6adf6a87?rik=QuAUgiEaCyfnEw&riu=http%3a%2f%2fwww.latramolla.cat%2fwp-content%2fuploads%2f2015%2f08%2ftel%c3%b3n-de-teatro.jpg&ehk=8JIqKttkttanpyQrrp0zovr1N5SO4IgPDBiJ3VXhCKs%3d&risl=&pid=ImgRaw&r=0");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+            color: white;
+        }
 
-      * {
-         box-sizing: border-box;
-         font-family: Arial, sans-serif;
-         margin: 0;
-         padding: 0;
-      }
+        * {
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
 
-      nav {
+        nav {
 
-         background-color: #333;
-         display: flex;
-         justify-content: space-around;
-         align-items: center;
-         height: 50px;
-         border: 2px solid black;
-         position: fixed;
-         top: 0;
-         width: 100%;
-
-      }
-
-      nav a {
-         color: white;
-         text-decoration: none;
-         padding: 0 10px;
-      }
-
-      nav a:hover {
-         background-color: #ddd;
-         color: #333;
-      }
-
-      .container {
-         display: flex;
-         flex-wrap: wrap;
-         margin: 50px 50px;
-
-      }
-
-      .container2 {
-         display: flex;
-         flex-wrap: wrap;
-         margin: 50px 50px;
-      }
-
-      .column {
-         width: 25%;
-         padding: 10px;
-      }
-
-      .column img {
-         width: 100%;
-      }
-
-      .title {
-         text-align: center;
-         font-size: 36px;
-         margin: 50px 20px;
-      }
-
-
-      @media screen and (max-width: 768px) {
-         .column {
-            width: 50%;
-         }
-      }
-
-      @media screen and (max-width: 480px) {
-         nav {
-            flex-wrap: wrap;
-            height: auto;
-         }
-
-         nav a {
+            background-color: #333;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 50px;
+            border: 2px solid black;
             position: fixed;
+            top: 0;
             width: 100%;
-            display: block;
-            text-align: center;
 
-            .cont {
-               text-align: center;
-               font-size: 36px;
-               margin: 50px 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0 10px;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: #333;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 50px 50px;
+
+        }
+
+        .container2 {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 50px 50px;
+        }
+
+        .column {
+            width: 25%;
+            padding: 10px;
+        }
+
+        .column img {
+            width: 100%;
+        }
+
+        .title {
+            text-align: center;
+            font-size: 36px;
+            margin: 50px 20px;
+        }
+
+
+        @media screen and (max-width: 768px) {
+            .column {
+                width: 50%;
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            nav {
+                flex-wrap: wrap;
+                height: auto;
             }
 
+            nav a {
+                position: fixed;
+                width: 100%;
+                display: block;
+                text-align: center;
+
+                .cont {
+                    text-align: center;
+                    font-size: 36px;
+                    margin: 50px 0;
+                }
 
 
 
-         }
-      }
-   </style>
+
+            }
+        }
+    </style>
 </head>
 
 <body>
 
 
-   <div class="navbar">
-      <nav>
-         <a href="#">Inicio</a>
-         <a href="#">Descripción</a>
-         <a href="#Historia">Historia</a>
-         <a href="#Dibujos">Dibujos</a>
-         <a href="#footer">Redes sociales</a>
-      </nav>
-      <div class="title">
-         <p
-            style="background:#332E31; color:white; font-weight:bold; padding:50px; border:3px solid #332E31; margin-top:40px; margin-bottom:40px; text-align:center; font-size:22px;">
-            Sea bienvenido a nuestra tienda, la nùmero 1 de todas aquì encontrara todo tipo de dibujos,desde los màs
-            bonitos y adorables hasta los màs perturbadores y dramaticos.</p>
-         <h1>EVANY</h1>
-      </div>
+    <div class="navbar">
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#">Descripción</a>
+            <a href="#Historia">Historia</a>
+            <a href="#Dibujos">Dibujos</a>
+            <a href="#footer">Redes sociales</a>
+        </nav>
+        <div class="title">
+            <p
+                style="background:#332E31; color:white; font-weight:bold; padding:50px; border:3px solid #332E31; margin-top:40px; margin-bottom:40px; text-align:center; font-size:22px;">
+                Sea bienvenido a nuestra tienda, la nùmero 1 de todas aquì encontrara todo tipo de dibujos,desde los màs
+                bonitos y adorables hasta los màs perturbadores y dramaticos.</p>
+            <h1>EVANY</h1>
+        </div>
 
-      <section id="Dibujos">
-         <center>
-            <p style="font-size: 30px">Dibujos</p>
+        <section id="Dibujos">
             <center>
-      </section>
+                <p style="font-size: 30px">Dibujos</p>
+                <center>
+        </section>
 
 
-      <div class="container">
-         <div class="column">
-            <img src="./img/uxi.jpeg" style="width:100%" height="80%" /></img>
-            <h4>Pizza punk</h4>
-            <p>Este dibujo es una muestra de como salirse de lo habitual no está mal, el único límite es nuestra
-               imaginación.</p></br>
-         </div>
-         <div class="column">
-            <img src="./img/pato uxi.jpeg" class="img" style="width:100%" height="89.5%" </img>
-            <h4>Uxi patito</h4>
-            <p>Este patito es una clara muestra de que algún día dominarán el mundo o en su defecto servirán de
-               inspiración para crear cosas más alocadas.</p>
-         </div>
-         <div class="column">
-            <img src="img\gato.jpeg" class="img" style="width:100%" height="89.5%" </img>
-            <h4> El sentir de la soledad </h4>
-            <p>Este dibujo representa la soledad como su nombre lo indica y que esta bien estar mal.</p>
-         </div>
-         <div class="column">
-            <img src="img\uxi.jpeg" class="img" style="width:100%" </img>
-            <h2>UXI</h2>
-            <p>Representa el fanatismo y admiración que puedes llegar a tenerle a una persona como para dedicar horas de
-               tu tiempo a algo que lo represente o en su defecto lo haga sentirse identificado.</p>
-         </div>
-      </div>
+        <div class="container">
+            <div class="column">
+                <img src="./img/uxi.jpeg" style="width:100%" height="80%" /></img>
+                <h4>Pizza punk</h4>
+                <p>Este dibujo es una muestra de como salirse de lo habitual no está mal, el único límite es nuestra
+                    imaginación.</p></br>
+            </div>
+            <div class="column">
+                <img src="./img/pato uxi.jpeg" class="img" style="width:100%" height="89.5%" </img>
+                <h4>Uxi patito</h4>
+                <p>Este patito es una clara muestra de que algún día dominarán el mundo o en su defecto servirán de
+                    inspiración para crear cosas más alocadas.</p>
+            </div>
+            <div class="column">
+                <img src="img\gato.jpeg" class="img" style="width:100%" height="89.5%" </img>
+                <h4> El sentir de la soledad </h4>
+                <p>Este dibujo representa la soledad como su nombre lo indica y que esta bien estar mal.</p>
+            </div>
+            <div class="column">
+                <img src="img\uxi.jpeg" class="img" style="width:100%" </img>
+                <h2>UXI</h2>
+                <p>Representa el fanatismo y admiración que puedes llegar a tenerle a una persona como para dedicar
+                    horas de
+                    tu tiempo a algo que lo represente o en su defecto lo haga sentirse identificado.</p>
+            </div>
+        </div>
 
-      <div class="container2">
-         <div class="column">
-            <img src="img\deku.jpeg" class="img" style="width:100%" </img>
-            <h4>DIbujo con café</h4>
-            <p>Este dibujo fue hecho por Ayala Rodriguez Abigail, màs conocida como abby paraella este dibujo rpresenta
-               la perseverancia que ha tenido toda su vida y que a pesar de los retos que la vida le pone,siempre sabe
-               como enfrentarlos.</p>
-         </div>
-         <div class="column">
-            <img src=" img/spiderman.png" style="width:100%"></img>
-            <h4>Una historia que cuidar</h4>
-            <p>Este dibujo representa el amor que le tengo a mi novio y que sin importar nada esta bien ser
-               perfectamente imperfectos.</p>
-         </div>
-         <div class="column">
-            <img src="img\uxi come pizza.jpeg" class="img" style="width:100%" </img>
-            <h4> El come planetas </h4>
-            <p>Está quizás representa que no hay que tener miedo a expresarnos, que siempre hay lugar para ideas
-               extravagantes.</p>
-         </div>
-         <div class="column">
-            <img src="img/logo.jpeg" style="width:100%" </img>
-            <p>Esta representa las emociones del ser humano, puesa miestras unos pasan sus dias entre dias coloridos,
-               otros se sienten mas apagados, el objetivo de esta obra es demostrar que el ser humano esta lleno de
-               colores y que para todos aquellos que crean que su vida es totalmente de un color opaco, siempre habra
-               algo que brille dentro de ellos.</p>
-         </div>
-      </div>
-      </dibujos>
-      </section>
+        <div class="container2">
+            <div class="column">
+                <img src="img\deku.jpeg" class="img" style="width:100%" </img>
+                <h4>DIbujo con café</h4>
+                <p>Este dibujo fue hecho por Ayala Rodriguez Abigail, màs conocida como abby paraella este dibujo
+                    rpresenta
+                    la perseverancia que ha tenido toda su vida y que a pesar de los retos que la vida le pone,siempre
+                    sabe
+                    como enfrentarlos.</p>
+            </div>
+            <div class="column">
+                <img src=" img/spiderman.png" style="width:100%"></img>
+                <h4>Una historia que cuidar</h4>
+                <p>Este dibujo representa el amor que le tengo a mi novio y que sin importar nada esta bien ser
+                    perfectamente imperfectos.</p>
+            </div>
+            <div class="column">
+                <img src="img\uxi come pizza.jpeg" class="img" style="width:100%" </img>
+                <h4> El come planetas </h4>
+                <p>Está quizás representa que no hay que tener miedo a expresarnos, que siempre hay lugar para ideas
+                    extravagantes.</p>
+            </div>
+            <div class="column">
+                <img src="img/logo.jpeg" style="width:100%" </img>
+                <p>Esta representa las emociones del ser humano, puesa miestras unos pasan sus dias entre dias
+                    coloridos,
+                    otros se sienten mas apagados, el objetivo de esta obra es demostrar que el ser humano esta lleno de
+                    colores y que para todos aquellos que crean que su vida es totalmente de un color opaco, siempre
+                    habra
+                    algo que brille dentro de ellos.</p>
+            </div>
+        </div>
+        </dibujos>
+        </section>
 
 
-      <footer id="footer" class="footer">
-         <rigth>
-            <h3>Redes Sociales</h3>
-         </rigth>
-      </footer>
+        <footer id="footer" class="footer">
+            <rigth>
+                <h3>Redes Sociales</h3>
+            </rigth>
+        </footer>
 
-      <img
-         src=https://th.bing.com/th/id/R.e790c25db5e52838040686612b1a732c?rik=uVuLX4sResGMKA&riu=http%3a%2f%2fpngimg.com%2fuploads%2ffacebook_logos%2ffacebook_logos_PNG19757.png&ehk=JL234rPBfx%2bf3tobhEVbPdNgJiWOhk251WyRwRAg940%3d&risl=&pid=ImgRaw&r=0"
-         alt="Logo Facebook" width="50" />
-      <img
-         src=https://toppng.com/uploads/preview/instagram-logo-clipart-transparent-png-images-logos-de-redes-sociales-11563010161vlgttwnktf.png
-         alt="Logo Instagram" width="50" />
+        <img src=https://th.bing.com/th/id/R.e790c25db5e52838040686612b1a732c?rik=uVuLX4sResGMKA&riu=http%3a%2f%2fpngimg.com%2fuploads%2ffacebook_logos%2ffacebook_logos_PNG19757.png&ehk=JL234rPBfx%2bf3tobhEVbPdNgJiWOhk251WyRwRAg940%3d&risl=&pid=ImgRaw&r=0"
+            alt="Logo Facebook" width="50" />
+        <img src=https://toppng.com/uploads/preview/instagram-logo-clipart-transparent-png-images-logos-de-redes-sociales-11563010161vlgttwnktf.png
+            alt="Logo Instagram" width="50" />
 
 </body>
 
